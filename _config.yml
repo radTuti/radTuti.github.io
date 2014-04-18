@@ -36,11 +36,11 @@ links:
     url: /
   - title: About
     url: /about/
-  - title: Blog
+  - title: Archive
     url: /articles/
-  - title: Blog Theme
-    url: http://mmistakes.github.io/so-simple-theme/
-    external: true
+#  - title: Blog Theme
+#    url: http://mmistakes.github.io/so-simple-theme/
+#    external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/Toronto  
