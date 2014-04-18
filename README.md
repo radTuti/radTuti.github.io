@@ -1,6 +1,6 @@
 #Tuti A.
 
-This is the source for my jekyll site at [live website](http://radtuti.github.io)
+This is the source for my blog. View the [live website](http://radtuti.github.io)
 
 
 #License & Copyright
