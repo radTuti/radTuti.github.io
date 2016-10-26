@@ -8,7 +8,7 @@ comments: true
 ---
 
 #Formatting Syntax
-Markdown is a plain text formatting syntax designed fo it to be optionally converted using a text-to-HTML conversion tool by the same name. It was created by [John Gruber](https://en.wikipedia.org/wiki/John_Gruber) in 2004. I have tried to list all the possible syntax used when creating markdown posts in Jekyll. For a comprehensive list, you must go to the [source](http://daringfireball.net/projects/markdown/syntax). 
+Markdown is a plain text formatting syntax designed for it to be optionally converted using a text-to-HTML conversion tool by the same name. It was created by [John Gruber](https://en.wikipedia.org/wiki/John_Gruber) in 2004. I have tried to list all the possible syntax used when creating markdown posts in Jekyll. For a comprehensive list, you must go to the [source](http://daringfireball.net/projects/markdown/syntax).
 \\
 Markdown varies and this is a handy syntax for me and anyone else who wants to use it; I'll update it as I learn more.
 
@@ -29,17 +29,17 @@ You can mark something as <del>deleted</del> too.
 
 	You can mark something as <del>deleted</del> too.
 
-To create a paragraph, you need a new line separating your text. 
+To create a paragraph, you need a new line separating your text.
 
 If you do not wish to create a paragraph, put...
 \\
-...doubleslashes in the empty line to start a new line.
+...double slashes in the empty line to start a new line.
 
-	To create a paragraph, you need a new line separating your text. 
+	To create a paragraph, you need a new line separating your text.
 
 	If you do not wish to create a paragraph, put...
 	\\
-	...doubleslashes in the empty line to start a new line.
+	...double slashes in the empty line to start a new line.
 
 ##Links
 
@@ -53,9 +53,9 @@ However, you can create [links like this](http://radtuti.github.io)
 ####Automatic Linking
 So if you write it like <http://radtuti.github.io> it works
 
-	So if you write it like <http://radtuti.github.io> 
+	So if you write it like <http://radtuti.github.io>
 
-It also works with email address <radTuti@live.ca> plus it obsures it to deter address-harvesting spambots
+It also works with email address <radTuti@live.ca> plus it obscures it to deter address-harvesting spambots
 
 	It also works with email address <radTuti@live.ca>
 
@@ -71,12 +71,12 @@ Or you can create links like references. [Visit my blog][] with spaces :)
 ####Footnotes
 You can also create links using [footnotes][1] with [titles][]
 
-[1]: http://radtuti.github.io 
+[1]: http://radtuti.github.io
 [titles]: http://radtuti.github.io "This links to the website"
 
 	You can also create links using [footnotes][1] with [titles][]
 
-	[1]: http://radtuti.github.io 
+	[1]: http://radtuti.github.io
 	[titles]: http://radtuti.github.io "This links to the website"
 
 Techically, this is similar to the latter external links
@@ -94,15 +94,15 @@ This links to my [about page](/about "About Tuti")
 	This links to my [about page](/ "About Tuti")
 
 ###Images
-Link internal images like ![optional](/images/zu-twentyone-zero.png "Optional title") If you want to specifiy image attributes, use the `<img>` tag. This assumes images are stored in /images folder
+Link internal images like ![optional](/images/zu-twentyone-zero.png "Optional title") If you want to specify image attributes, use the `<img>` tag. This assumes images are stored in /images folder
 
-	[optional](/images/zu-twentyone-zero.png "Optional title") 
+	[optional](/images/zu-twentyone-zero.png "Optional title")
 
 Link to external images too like ![](http://thepatternlibrary.com/img/af.png "Bunting Flag by Raul Varela")
 
 	![](http://thepatternlibrary.com/img/af.png "Bunting Flag by Raul Varela")
 
-The images link can also be used in any of the formats listed in external images. Provided `!` preceeds it.
+The images link can also be used in any of the formats listed in external images. Provided `!` is in front of it.
 
 ###Shares
 Shared Drives. **NOTE**:This only makes sense to use on intranets
@@ -142,7 +142,7 @@ Use `-` or `*` or `+` to created unordered lists. To start a new indented level 
     - Level Three
 
 ###Ordered Lists
-For ordered list use your numbers and as with unordered list, indent is with <del>two</del> four spaces. The acutal numbers do not matter as long as it is a number
+For ordered list use your numbers and as with unordered list, indent is with <del>two</del> four spaces. The actual numbers do not matter as long as it is a number
 
 1. Level one
    1. sub Level two
@@ -159,22 +159,22 @@ Adding here because it is technically a list. To generate table of contents from
 
 ##Quotes
 >You can create blockquotes using the email style `>`.
-You can continue the quote in the next line without start having to type `>` again. 
+You can continue the quote in the next line without start having to type `>` again.
 
 >> Increase the indentation by adding more `>` to the text
 
->>>> Additonal blockquote increase
+>>>> Additional blockquote increase
 
 	>You can create blockquotes using the email style `>`.
-	You can continue the quote in the next line without start having to type `>` again. 
+	You can continue the quote in the next line without start having to type `>` again.
 
 	>> Increase the by adding more `>` to the text
 
 
 ##Tables
-You can create tables <del>easily</del>. You do not have to put the external  pipes `|`. 
+You can create tables <del>easily</del>. You do not have to put the external  pipes `|`.
 \\
-For alignment, use `:` to left, center or right align your columns 
+For alignment, use `:` to left, centre or right align your columns
 
 | Header1 | Header2 | Header3|
 |:-------:|:------- | ------:|
@@ -199,7 +199,7 @@ Row3 Col1|Row3 |Row3 Col 3|
 <h2 id="codesnippet"> Code Snippets</h2>
 Technically, You can't highlight a language with Markdown.
 
-However, with the use of plugins, you can add blocks of code and use highlight E.g. \{\% highlight language \%\} your code \{\% highlight \%\}. 
+However, with the use of plugins, you can add blocks of code and use highlight E.g. \{\% highlight language \%\} your code \{\% highlight \%\}.
 \\
 FYI I had to use `\` regex so liquid doesn't parse it. Ignore `\` where it show and forgive my poor method.
 
@@ -207,7 +207,7 @@ For a list of all brushes i.e. languages available for highlighting: [SyntaxHigh
 
 Snippet of java codes
 {% highlight java %}
-/** 
+/**
  * The HelloWorldApp class implements an application that
  * simply displays "Hello World!" to the standard output.
  */
@@ -221,7 +221,7 @@ class HelloWorldApp {
 Without highlights, use 1-tab or use four spaces to add code snippets
 
 	Snippet of java codes
-	/** 
+	/**
 	 * The HelloWorldApp class implements an application that
 	 * simply displays "Hello World!" to the standard output.
 	 */
@@ -242,9 +242,8 @@ For block-level HTML elements like `<div>`, `<pre>`, `<table>`, `<pre>`, `<p>`, 
 For special characters like `&` in url, it needs to be written as `&amp;` using the character's entity. Include copyright &copy;, less than &lt;, greater than &gt; etc. You can checkout the list of [character entities](http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#Character_entity_references_in_HTML) if your aren't sure what to use.
 
 ###<hr>
-Either with three or more astericks `***` or hyphens `---` underscores `___` as shown below
+Either with three or more asterisks `***` or hyphens `---` underscores `___` as shown below
 
 ***
 ---
 ___
-
